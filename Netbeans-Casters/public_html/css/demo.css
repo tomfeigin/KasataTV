@@ -27,7 +27,7 @@ body {
     font-size: 16px;
     color: #333;
     -webkit-font-smoothing: antialiased;
-    overflow: hidden;
+ /*   overflow: hidden;*/
 }
 
 a {
@@ -53,9 +53,10 @@ a {
 	position: relative;
 }
 
-.container > header {
-	margin: 10px;
-	padding: 20px 10px 10px 10px;
+.container > header { 
+    width: 65vw;
+	/*margin: 10px;
+	padding: 20px 10px 10px 10px;*/
 	position: relative;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
@@ -63,12 +64,14 @@ a {
 }
 
 .container > header h1 {
-	font-size: 33px;
-	line-height: 40px;
-	margin: 0 0 .2em 0;
+    
+    float: center;
+	font-size: 20px;
+	line-height: 1vh;
+	margin: 0 0 .1em 0;
 	font-weight: normal;
 	color: white;
-	font-family: 'Hammersmith One', sans-serif;
+	font-family: 'Lato', sans-serif;
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
 	position: relative;
 	color: #6Cf;
