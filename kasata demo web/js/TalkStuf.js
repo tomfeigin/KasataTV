@@ -24,7 +24,7 @@
     }
 
     iframe.setAttribute('src', iframe_src);
-    iframe.setAttribute('width', '30%');
+    iframe.setAttribute('width', '100%');
     iframe.setAttribute('height', '100%');
     iframe.setAttribute('frameborder', '0');
     iframe.setAttribute('style', 'margin-bottom: -8px;');
