@@ -15,14 +15,14 @@ function setDimentions() {
     block1.height(height);
     block1.width(width);
 
-    var tlkIOWidth = screen.width*2/10; 
+    var tlkIOWidth = screen.width*2/9.1  ; 
     tlkio.width(tlkIOWidth);// + "px";
     tlkio.height(height);
     block2.width(tlkio.width() /3 * 2);
-    block2.height((tlkIOWidth / 16 * 9));//+ "px";
+    block2.height((tlkIOWidth / 18 * 9)); //"650px";
     livefrom.height(block2.height());
     livefrom.width(width);
-    block2.css({'position':'absoulte', 'margin-right' : tlkio.width()/3.3});
+    block2.css({'position':'absoulte', 'margin-right' : tlkio.width()/4.3});
 }
 
 function getParameterByName(name, url) {

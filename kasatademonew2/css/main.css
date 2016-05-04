@@ -126,30 +126,43 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+#menu{
+      position: absolute;
+    bottom: 0px;
+    left: 5px;    
+    top: 155px
+  
+    
+}    
+
 #caster {
     
-     width: 153px;
+     width: 120px;
     height: 20px;
-   
+    
     position: absolute;
     bottom: 0px;
-    left: 150px;    
+    left: 190px;    
     top: 155px
     
+    
+  
 }
 
 
 
 #chat {
-    
- width: 153px;
-    height: 20px;
+        
+ width: 80px;
+    height: 200px;
     border: 0px solid black;
     position: absolute;
     bottom: 0px;
-    left: 295px;    
-    top: 315px;
-    
+    left: 430px;    
+    top: 310px;
+   
 }
 
 #mainfeed {
@@ -157,7 +170,7 @@ textarea {
      
     position: absolute;
     bottom: 0px;
-    left: 320px;    
+    left: 360px;    
     top: 155px;
     
     
@@ -201,19 +214,20 @@ textarea {
 
 .block1 {
     width:  70vw;
-    height: 40vh;
-    border: 0.5px solid green;
+    height: 20px;
+    border: px solid green;
     position: relative;
 }
 
 .block2 {
     color: blue;
     width: 153px;
-    height: 115px;
+    height: 180px;
     border: 0.4px solid black;
     position: fixed;
-    bottom: 0px;
+    bottom: px;
     left: 0px;
+   
 }
 
 #tlkio-parent #tlkio {
