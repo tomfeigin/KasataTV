@@ -39,11 +39,19 @@ function getFlashMovie(movieName) {
     var isIE = navigator.appName.indexOf("Microsoft") != -1;
     return (isIE) ? window[movieName] : document[movieName];  
 }
-function setSrc() {
+
+function getPlay() {
     var play = getParameterByName("play");
     if(!play) 
     {
         play = 'bob';
+    }
+    return play;
+}
+
+function setSrc(play) {
+    if(!play) {
+        play = getPlay();
     }
     var video2 = getFlashMovie('gamePlayer');
     // var rtmpSrc = 'rtmp://54.194.140.164:1935/pros?play=pros';
