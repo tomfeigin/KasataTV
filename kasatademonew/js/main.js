@@ -38,9 +38,8 @@ function setSrc() {
 }
 
 $(document).ready(function(){
-    
+    setDimentions();
     setTimeout(function(){
         setSrc();
-        setDimentions();
-        }, 3000);
+        }, 5000);
 });
