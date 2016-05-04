@@ -22,8 +22,17 @@ function setDimentions() {
     block2.height((tlkIOWidth / 16 * 9));//+ "px";
     livefrom.height(block2.height());
     livefrom.width(width);
-    setDimentions();
     block2.css({'position':'absoulte', 'margin-right' : tlkio.width()/3.3});
+}
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
 function getFlashMovie(movieName) {
@@ -31,9 +40,14 @@ function getFlashMovie(movieName) {
     return (isIE) ? window[movieName] : document[movieName];  
 }
 function setSrc() {
+    var play = getParameterByName("play");
+    if(!play) 
+    {
+        play = 'bob';
+    }
     var video2 = getFlashMovie('gamePlayer');
     // var rtmpSrc = 'rtmp://54.194.140.164:1935/pros?play=pros';
-    var rtmpSrc = 'rtmp://52.18.24.244:1935/Kasata1?play=bob';
+    var rtmpSrc = 'rtmp://52.18.24.244:1935/Kasata1?play=' + play;
     video2.setProperty('src', rtmpSrc);
 }
 
@@ -41,5 +55,5 @@ $(document).ready(function(){
     setDimentions();
     setTimeout(function(){
         setSrc();
-        }, 5000);
+        }, 3000);
 });
