@@ -57,6 +57,8 @@ function setSrc(play) {
     // var rtmpSrc = 'rtmp://54.194.140.164:1935/pros?play=pros';
     var rtmpSrc = 'rtmp://52.18.24.244:1935/Kasata1?play=' + play;
     video2.setProperty('src', rtmpSrc);
+    
+    var sport = 'rtmp://
 }
 
 $(document).ready(function(){
