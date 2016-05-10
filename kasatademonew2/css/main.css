@@ -1,5 +1,49 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    background-color: #f0f5f5;
+    border: 0px solid #555;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
+
+
+
+
+    
 body {
 	margin:0;
 	background:url(../images/bg-body.png) repeat-x left top #003155;
@@ -128,11 +172,11 @@ textarea {
    ========================================================================== */
 
 
-#menu{
+menu {
       position: absolute;
     bottom: 0px;
-    left: 5px;    
-    top: 155px
+    left: 20px;    
+    top: 250px
   
     
 }    
@@ -142,10 +186,10 @@ textarea {
      width: 120px;
     height: 20px;
     
-    position: absolute;
+    position: relative;
     bottom: 0px;
-    left: 190px;    
-    top: 155px
+    left:-176px;       
+    top: -106px
     
     
   
@@ -155,24 +199,24 @@ textarea {
 
 #chat {
         
- width: 80px;
-    height: 200px;
+ width: 250px;
+    height: 480px;
     border: 0px solid black;
     position: absolute;
-    bottom: 0px;
-    left: 430px;    
-    top: 310px;
+    bottom: 60px;
+    left:248px;    
+    top: 154px;
+     background-color: white
    
 }
 
 #mainfeed {
-    width: 180px;
+   width: 180px;
      
     position: absolute;
     bottom: 0px;
-    left: 360px;    
+    left: 325px;    
     top: 155px;
-    
     
     
 }
@@ -231,7 +275,7 @@ textarea {
 }
 
 #tlkio-parent #tlkio {
-    background-color: white;
+    background-color: white ;
 
 
 }

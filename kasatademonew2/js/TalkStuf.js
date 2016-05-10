@@ -25,10 +25,10 @@
 
     iframe.setAttribute('src', iframe_src);
     iframe.setAttribute('width', '100%');
-//    iframe.setAttribute('height', screen.height * 0.75 + "px");
+//  iframe.setAttribute('height', screen.height * 0.75 + "px");
     iframe.setAttribute('height', '100%');
     iframe.setAttribute('frameborder', '0');
-    iframe.setAttribute('style', 'margin-bottom: 8px;');
+    iframe.setAttribute('style', 'margin-bottom: 0px;');
 
     var current_style = target_element.getAttribute('style');
     target_element.setAttribute('style', 'overflow: auto; -webkit-overflow-scrolling: touch;' + current_style);
