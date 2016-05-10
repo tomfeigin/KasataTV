@@ -5,7 +5,7 @@ function setDimentions() {
 //    var player = document.getElementById("player");
     var tlkio = $("#tlkio");
     
-    var height = (screen.height*0.48);// + "px";
+    var height = (screen.height*0.65);// + "px";
     var width = (screen.width*0.57);//\\ + "px";
     
 //  block2.style.bottom = ((screen.height*0.75)  block2.clientHeight) + "px";
@@ -58,10 +58,6 @@ function setSrc(play) {
     // var rtmpSrc = 'rtmp://54.194.140.164:1935/pros?play=pros';
     var rtmpSrc = 'rtmp://52.18.24.244:1935/Kasata1?play=' + play;
     video2.setProperty('src', rtmpSrc);
-    
-   
-    
-    var sport = 'rtmp://
 }
 
 $(document).ready(function(){

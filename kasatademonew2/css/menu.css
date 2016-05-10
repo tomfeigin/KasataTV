@@ -3,16 +3,16 @@
 .menu_simple ul {
     margin: 0; 
     padding: 0;
-    width:240px;
+    width:258px;
     list-style-type: none;
     
     position: relative;
-    bottom: -204px;
-    left: -175px;    
+    bottom: -210px;
+    left: -176px;    
     top: 0px
     padding: 0px;
     border-color: gainsboro;
-    border-width: 4px;
+    border-width: 1px;
     border-style: outset;  
 }
 

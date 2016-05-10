@@ -175,21 +175,21 @@ textarea {
 menu {
       position: absolute;
     bottom: 0px;
-    left: 20px;    
-    top: 250px
+    left: 35px;    
+    top: 260px
   
     
 }    
 
 #caster {
     
-     width: 120px;
+     width: 50px;
     height: 20px;
     
-    position: relative;
+    position: absolute;
     bottom: 0px;
-    left:-176px;       
-    top: -106px
+    left:0px;       
+    top: 155px
     
     
   
@@ -199,13 +199,13 @@ menu {
 
 #chat {
         
- width: 250px;
+ width: 252px;
     height: 480px;
     border: 0px solid black;
     position: absolute;
     bottom: 60px;
-    left:248px;    
-    top: 154px;
+    left:260px;    
+    top: 155px;
      background-color: white
    
 }
@@ -215,7 +215,7 @@ menu {
      
     position: absolute;
     bottom: 0px;
-    left: 325px;    
+    left: 340px;    
     top: 155px;
     
     
